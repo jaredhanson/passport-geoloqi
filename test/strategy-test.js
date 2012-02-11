@@ -60,6 +60,12 @@ vows.describe('GeoloqiStrategy').addBatch({
         assert.equal(profile.displayName, 'Jared Hanson');
         assert.equal(profile.emails[0].value, 'user@example.com');
       },
+      'should set raw property' : function(err, profile) {
+        assert.isString(profile._raw);
+      },
+      'should set json property' : function(err, profile) {
+        assert.isObject(profile._json);
+      },
     },
   },
   
