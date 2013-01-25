@@ -1,6 +1,6 @@
 {
   "name": "passport-geoloqi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Geoloqi authentication strategy for Passport.",
   "keywords": ["passport", "geoloqi", "auth", "authn", "authentication", "identity"],
   "repository": {
